@@ -62,7 +62,10 @@ export const Footer = () => {
           >
             <IoLogoWhatsapp />
           </WhatsappLink>
-          <MapsLink href="">
+          <MapsLink
+            href="https://www.google.com/maps/place/COFETARIA+MIEREA+ALBINEI/@44.8592653,24.8781757,17z/data=!3m1!4b1!4m14!1m7!3m6!1s0x40b2bd375b5b8e05:0x2c65f1312f97106e!2sCOFETARIA+MIEREA+ALBINEI!8m2!3d44.8592615!4d24.8807506!16s%2Fg%2F11rzwpcfqt!3m5!1s0x40b2bd375b5b8e05:0x2c65f1312f97106e!8m2!3d44.8592615!4d24.8807506!16s%2Fg%2F11rzwpcfqt"
+            target="_blank"
+          >
             <TbMapSearch />
           </MapsLink>
         </SocialsContainer>
