@@ -1,0 +1,26 @@
+*{
+    margin: 0;
+    padding: 0;
+
+}
+
+
+:root{
+    --color-light-gray:#999999;
+    --color-dark-gray: #383737;
+    --color-white: #fff;
+    --color-black:#000;
+    --color-span: #434141;
+}
+
+h1,h2,h3,h4 {
+    font-size: 18px;
+    /* font-family: 'Lora', serif; */
+    font-family: 'Herr Von Muellerhoff', cursive;
+}
+
+span,p {
+    font-size: 14px;
+}
+
+/* https://images.unsplash.com/photo-1558326567-98ae2405596b?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=3159&q=80*/
