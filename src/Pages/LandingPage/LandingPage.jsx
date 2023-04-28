@@ -20,23 +20,38 @@ import {
 } from "./components";
 
 import { BsChevronDown } from "react-icons/bs";
+import { BsArrow90DegRight } from "react-icons/bs";
 import { HiOutlineShoppingCart } from "react-icons/hi";
 
 export const LandingPage = () => {
+  function scrollToBuy() {
+    window.scrollTo(0, 1700);
+  }
+
+  function scrollToAboutUs() {
+    window.scrollTo(0, 900);
+  }
+
+  function scrollToContact() {
+    window.scrollTo(0, 2200);
+  }
+
   return (
     <LandingSection>
       <LandingUpContainer>
         <MenuContainer>
-          <a>
+          <a onClick={scrollToAboutUs}>
             ABOUT US <BsChevronDown />
           </a>
-          <a>PRODUSE</a>
-          <a>LOCATII</a>
+          <a onClick={scrollToBuy}>PRODUSE</a>
+          <a onClick={scrollToContact}>LOCATII</a>
         </MenuContainer>
         <CTAContainer>
           <h3>Am Deschis!</h3>
           <span>Ti-e pofta de dulce?</span>
-          <button>Comanda Acum</button>
+          <button onClick={scrollToBuy}>
+            Comanda Acum <BsArrow90DegRight />
+          </button>
         </CTAContainer>
       </LandingUpContainer>
       <StoryContainer>

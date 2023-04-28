@@ -4,6 +4,10 @@
 
 }
 
+html {
+    scroll-behavior: smooth;
+}
+
 
 :root{
     --color-light-gray:#999999;

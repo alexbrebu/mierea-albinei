@@ -3,7 +3,7 @@ import styled from "styled-components";
 export const FooterSection = styled.footer`
   display: flex;
   width: 100%;
-  height: 1000px;
+  height: 8s00px;
   padding: 128px 24px 24px 24px;
 `;
 

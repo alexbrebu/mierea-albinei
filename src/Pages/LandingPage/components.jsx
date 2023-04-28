@@ -30,6 +30,7 @@ export const MenuContainer = styled.div`
     font-weight: 600;
     font-family: "Lora", serif;
     color: var(--color-span);
+    cursor: pointer;
 
     svg {
       color: var(--color-dark-gray);
@@ -68,6 +69,10 @@ export const CTAContainer = styled.div`
   }
 
   button {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 4px;
     font-family: "Lora", serif;
     width: 100%;
     max-width: 120px;
@@ -83,6 +88,12 @@ export const CTAContainer = styled.div`
 
     :hover {
       background-color: #d442ba;
+    }
+
+    svg {
+      width: 12px;
+      height: 12px;
+      transform: rotate(90deg);
     }
   }
 `;
