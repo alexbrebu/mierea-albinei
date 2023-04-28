@@ -2,9 +2,12 @@ import styled from "styled-components";
 
 export const FooterSection = styled.footer`
   display: flex;
+  justify-content: center;
   width: 100%;
-  height: 8s00px;
-  padding: 128px 24px 24px 24px;
+  max-width: 1400px;
+  height: 600px;
+  padding: 128px 0;
+  margin: 0 auto;
 `;
 
 export const ContactContainer = styled.div`
@@ -17,6 +20,7 @@ export const ContactContainer = styled.div`
 
 export const SocialMediaContainer = styled.div`
   display: flex;
+  justify-content: center;
   width: 100%;
   padding: 24px;
 `;
@@ -24,6 +28,7 @@ export const SocialMediaContainer = styled.div`
 export const SocialsContainer = styled.div`
   display: flex;
   flex-direction: column;
+  align-items: center;
   /* padding: 24px; */
   width: 100%;
   gap: 12px;
